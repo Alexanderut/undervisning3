@@ -2,15 +2,15 @@ import React,{useState} from 'react'
 import styled from 'styled-components';
 
 export default function Test(props) {
-    const [color, setColor] = useState('black');  // Initial color is black
+    const [color, setColor] = useState('gray');  // Initial color is black
   
     // Function to change color
     const changeColor = () => {
 
-        if(color === "black"){
+        if(color === "gray"){
             setColor("#5E06AC") //dere kan også bruke rgb og hex farger feks. #FFC0CB
         } else{
-            setColor("black")   
+            setColor("gray")   
         }
     };
   
@@ -29,6 +29,6 @@ export default function Test(props) {
   }
 
   h1:hover{
-   color: red
+   color: green
   }
 `;

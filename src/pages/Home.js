@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import styled from 'styled-components';
-import Test from './Test';
+import Test from '../components/Test';
 
 export default function Home() {
 
@@ -17,13 +17,16 @@ export default function Home() {
         }
     }
 
-
   return (
     <NavStyle>
     <h1>    Hello there from Home page</h1>
     <div className='boksSomHolderTest'>
-    <Test navn={"alexander"} alder={34} />
+    <Test navn={"Alexander"} alder={32} />
     </div>
+
+
+<div className='line'></div>
+
 
 <button onClick={handleOpen} className='btn btn-primary'>Lukk/åpne dør</button>
 
@@ -44,5 +47,12 @@ margin-top: 65px;
     padding:50px;
     border:1px solid black;
 
+}
+
+.line{
+    border-bottom:1px solid red ;
+    width:100% ;
+    margin-top:50px ;
+    margin-bottom:50px ;
 }
 `

@@ -14,7 +14,6 @@ export default function Nav() {
       </Hamburger>
       <Menu isOpen={isOpen}>
       <a href='/' className='lenke'><MenuItem>Home</MenuItem></a>
-        <Link to="/test" className='lenke'> <MenuItem>Test</MenuItem> </Link>
         <Link to="/kalkis" className='lenke'><MenuItem>Kalkulator</MenuItem></Link>
       </Menu>
     </StyledNav>
