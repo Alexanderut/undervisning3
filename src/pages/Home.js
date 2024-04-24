@@ -10,7 +10,7 @@ export default function Home() {
         
     const handleOpen = ()=>{
         setOpen(!open)
-        if(open == false){
+        if(open === false){
             setDisplayDør("Lukket")
         } else{
             setDisplayDør("Åpen")

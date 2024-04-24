@@ -28,7 +28,7 @@ const handleCharacter = (e) =>{
 
     let  charSum = 0
     for(let i = 0; i < teller.length; i++){
-        if(teller[i] == character){
+        if(teller[i] === character){
             charSum ++
         } 
         setCharCount(charSum)
@@ -43,7 +43,7 @@ const handleCharacter = (e) =>{
     <input onChange={handleInputCharacter} placeholder="Skriv en bokstav..."/>
     <button type='submit' className='btn btn-primary mx-2'>Registrer bokstav</button>
     </form>
-    {character == "" ? <h3>Du har ikke valgt bokstav enda...</h3> :     <h3>Bokstaven du har valgt er: {character}</h3>
+    {character === "" ? <h3>Du har ikke valgt bokstav enda...</h3> :     <h3>Bokstaven du har valgt er: {character}</h3>
 }
 </div>
 

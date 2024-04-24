@@ -1,9 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Home from './pages/Home';
 import Nav from './components/Nav';   // Nav.js ligger i mappen "components"
 import Kalkulator from './pages/Kalkulator';
+import Products from './pages/Products';
+import SingleProduct from "./pages/SingleProduct";
 
 
 function App() {
@@ -15,6 +15,10 @@ function App() {
   <Routes>
     <Route path="/" element={ <Home/> } />
     <Route path="/kalkis" element={ <Kalkulator/> } />
+    <Route path="/products" element={ <Products/> } />
+    <Route path="/products/:id" element={ <SingleProduct/> } />
+
+
   </Routes>
 </Router>
     </div>

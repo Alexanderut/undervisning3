@@ -1,0 +1,90 @@
+{
+  "produkter": [
+    {
+      "id": "prod1",
+      "navn": "Produkt 1",
+      "pris": 250,
+      "info": "Dette er informasjon om Produkt 1",
+      "bilde": "https://source.unsplash.com/random/200x200?sig=product1",
+      "deler": [
+        {
+          "id": "del11",
+          "navn": "Del 1",
+          "pris": 50,
+          "bilde": "https://source.unsplash.com/random/200x200?sig=part11"
+        },
+        {
+          "id": "del12",
+          "navn": "Del 2",
+          "pris": 75,
+          "bilde": "https://source.unsplash.com/random/200x200?sig=part12"
+        },
+        {
+          "id": "del19",
+          "navn": "Del 3",
+          "pris": 75,
+          "bilde": "https://source.unsplash.com/random/200x200?sig=part12"
+        }
+      ]
+    },
+    {
+      "id": "prod2",
+      "navn": "Produkt 2",
+      "pris": 450,
+      "info": "Dette er informasjon om Produkt 2",
+      "bilde": "https://source.unsplash.com/random/200x200?sig=product2",
+      "deler": [
+        {
+          "id": "del21",
+          "navn": "Del 1",
+          "pris": 95,
+          "bilde": "https://source.unsplash.com/random/200x200?sig=part21"
+        }
+      ]
+    },
+    {
+      "id": "prod3",
+      "navn": "Produkt 3",
+      "pris": 350,
+      "info": "Dette er informasjon om Produkt 3",
+      "bilde": "https://source.unsplash.com/random/200x200?sig=product3",
+      "deler": []
+    },
+    {
+      "id": "prod4",
+      "navn": "Produkt 4",
+      "pris": 150,
+      "info": "Dette er informasjon om Produkt 4",
+      "bilde": "https://source.unsplash.com/random/200x200?sig=product4",
+      "deler": [
+        {
+          "id": "del41",
+          "navn": "Del 1",
+          "pris": 30,
+          "bilde": "https://source.unsplash.com/random/200x200?sig=part41"
+        }
+      ]
+    },
+    {
+      "id": "prod5",
+      "navn": "Produkt 5",
+      "pris": 550,
+      "info": "Dette er informasjon om Produkt 5",
+      "bilde": "https://source.unsplash.com/random/200x200?sig=product5",
+      "deler": [
+        {
+          "id": "del51",
+          "navn": "Del 1",
+          "pris": 120,
+          "bilde": "https://source.unsplash.com/random/200x200?sig=part51"
+        },
+        {
+          "id": "del52",
+          "navn": "Del 2",
+          "pris": 110,
+          "bilde": "https://source.unsplash.com/random/200x200?sig=part52"
+        }
+      ]
+    }
+  ]
+}

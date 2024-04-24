@@ -15,6 +15,8 @@ export default function Nav() {
       <Menu isOpen={isOpen}>
       <a href='/' className='lenke'><MenuItem>Home</MenuItem></a>
         <Link to="/kalkis" className='lenke'><MenuItem>Kalkulator</MenuItem></Link>
+        <Link to="/products" className='lenke'><MenuItem>Produkter</MenuItem></Link>
+
       </Menu>
     </StyledNav>
   );
