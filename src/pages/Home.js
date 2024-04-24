@@ -20,7 +20,7 @@ export default function Home() {
 
   return (
     <NavStyle>
-    <h1>    Hello from Home page</h1>
+    <h1>    Hello there from Home page</h1>
     <div className='boksSomHolderTest'>
     <Test navn={"alexander"} alder={34} />
     </div>
